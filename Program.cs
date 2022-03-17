@@ -137,6 +137,20 @@ namespace Tsystem_Day4_Assignments
                 Console.WriteLine(ex.Message);
             }
 
+            Console.WriteLine("===========delegate execution============");
+
+            Delegate_Calculation dc = new Delegate_Calculation();
+            MyDelegate md1 = new MyDelegate(dc.Addition);
+            int result = md1.Invoke(33, 33);
+            Console.WriteLine(result);
+
+            Console.WriteLine("----------------------------------------");
+            MyStringDelegate msd= new MyStringDelegate(dc.AcceptNames);
+            string name2 = msd.Invoke("nilesh");
+            Console.WriteLine(name2);
+
+
+
 
 
 
