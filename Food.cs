@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//question-- Create a class Food with food name & price. create a list of foods available
+//& display using foreach
 
 namespace Tsystem_Day4_Assignments
 {

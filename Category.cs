@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//question --  Create a class Category like Id, Name to store product categories. 
+//Use ArrayList class to display Categories
 
 namespace Tsystem_Day4_Assignments
 {

@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//question--Create a Student class with auto implemented property,
+//initialize values using object initializer syntax and display the student details
+//(note: do not use constructor)
 
 namespace Tsystem_Day4_Assignments
 {

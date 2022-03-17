@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+// Create a Product Class with auto implemented property,
+//create a list of products & display using foreach
+//(note: do not use constructor)
 
 namespace Tsystem_Day4_Assignments
 {

@@ -108,6 +108,23 @@ namespace Tsystem_Day4_Assignments
 
             }
 
+            Console.WriteLine("===============areaa calculation=================");
+
+            Circle cr = new Circle(11);
+            cr.CalculateArea();
+            Console.WriteLine(cr);
+
+            Console.WriteLine("-------------------------------------------------");
+            Rectangle rc = new Rectangle(9,12);
+            rc.CalculateArea();
+            Console.WriteLine(rc);
+
+            Console.WriteLine("-------------------------------------------------");
+            Square ss = new Square(9);
+            ss.CalculateArea();
+            Console.WriteLine(ss);
+
+
 
 
 

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//3. Create a array of Employees and display the details using foreach (use array)
 
 namespace Tsystem_Day4_Assignments
 {
