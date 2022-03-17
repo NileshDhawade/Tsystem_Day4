@@ -124,6 +124,21 @@ namespace Tsystem_Day4_Assignments
             ss.CalculateArea();
             Console.WriteLine(ss);
 
+            Console.WriteLine("===============custom exception=============");
+
+            User us = new User();
+            try
+            {
+                string name =us.acceptName(null);
+                Console.WriteLine("your name is "+name);
+            }
+            catch(NameException ex )
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+
+
 
 
 
