@@ -23,7 +23,7 @@ namespace Tsystem_Day4_Assignments
         }
         public override string ToString()
         {
-            return "name of the food is " + fName + " food price is " + fprice; 
+            return "name of the food is " + fName + "\nfood price is " + fprice; 
         }
     }
 }
