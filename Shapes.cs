@@ -11,7 +11,7 @@ namespace Tsystem_Day4_Assignments
         abstract public void CalculateArea();
     }
 
-    public class Circle : Shapes
+    public class Circle : Shapes,Iprintable
     {
         private int radius;
         private double result, PI = 3.14;
@@ -26,6 +26,12 @@ namespace Tsystem_Day4_Assignments
             result = PI * radius * radius;
            
         }
+
+        public string Print()
+        {
+            return "area of the circle " + result;
+        }
+
         public override string ToString()
         {
             return "area of the circle is : " + result;

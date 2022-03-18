@@ -47,6 +47,8 @@
     <Compile Include="Delegate_Calculation.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Food.cs" />
+    <Compile Include="ICustomer.cs" />
+    <Compile Include="Iprintable.cs" />
     <Compile Include="NameException.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />

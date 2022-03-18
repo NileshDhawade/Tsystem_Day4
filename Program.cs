@@ -149,6 +149,18 @@ namespace Tsystem_Day4_Assignments
             string name2 = msd.Invoke("nilesh");
             Console.WriteLine(name2);
 
+            Console.WriteLine("========Interface implementation========");
+
+            Console.WriteLine(cr.Print());
+
+            Console.WriteLine("--------Interface member implement explicitly--------");
+
+            ICustomer ic = new Transaction();
+            Console.WriteLine(ic.DisplayDetails());
+
+            IOrder io = new Transaction();
+            Console.WriteLine(io.DisplayDetails());
+
 
 
 
